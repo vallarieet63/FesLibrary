@@ -480,3 +480,26 @@ LARGE SMARTPHONES
 }
 
 
+@media (max-width: 768px) {
+
+  #landing {
+    padding-bottom: calc(12vw + 16px);
+  }
+
+  header {
+    height: auto;
+    min-height: calc(100vh - 80px);
+  }
+
+  .header__container {
+    height: auto;
+    min-height: calc(100vh - 80px);
+    gap: 24px;
+    padding-bottom: 24px;
+  }
+
+}
+
+.menu__backdrop {
+  position: fixed;
+}
